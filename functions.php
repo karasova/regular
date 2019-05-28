@@ -80,9 +80,9 @@
     }
 
     function ex7($file){
-	    $file = preg_replace("/\:\)/", "<img src='regular/smile.png' alt=':)' height='25 px'>", $file);
-	    $file = preg_replace("/\;\)/", "<img src='regular/wink.png' alt=';)' height='25 px'>", $file);
-	    $file = preg_replace("/\:\(/", "<img src='regular/sad.png' alt=':(' height='25 px'>", $file);
+	    $file = preg_replace("/\:\)/", "<img src='smile.png' alt=':)' height='25 px'>", $file);
+	    $file = preg_replace("/\;\)/", "<img src='wink.png' alt=';)' height='25 px'>", $file);
+	    $file = preg_replace("/\:\(/", "<img src='sad.png' alt=':(' height='25 px'>", $file);
         return $file;  
         
     }
